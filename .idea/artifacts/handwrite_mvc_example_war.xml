@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="handwrite-mvc-example:war">
+    <output-path>$PROJECT_DIR$/handwrite-mvc-example/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>handwrite-mvc-example</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="handwrite-mvc-example.war">
+      <element id="artifact" artifact-name="handwrite-mvc-example:war exploded" />
+    </root>
+  </artifact>
+</component>

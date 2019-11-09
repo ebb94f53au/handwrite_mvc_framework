@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/handwrite-mvc-example/handwrite-mvc-example.iml" filepath="$PROJECT_DIR$/handwrite-mvc-example/handwrite-mvc-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/handwrite-mvc-framework/handwrite-mvc-framework.iml" filepath="$PROJECT_DIR$/handwrite-mvc-framework/handwrite-mvc-framework.iml" />
+    </modules>
+  </component>
+</project>
