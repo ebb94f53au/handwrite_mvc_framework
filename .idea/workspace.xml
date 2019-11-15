@@ -6,7 +6,19 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08b18368-2d5c-4eee-9f5a-51c979132457" name="Default Changelist" comment="" />
+    <list default="true" id="08b18368-2d5c-4eee-9f5a-51c979132457" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handwrite-mvc-example/handwrite-mvc-example.iml" beforeDir="false" afterPath="$PROJECT_DIR$/handwrite-mvc-example/handwrite-mvc-example.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handwrite-mvc-example/src/main/java/com/siyang/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/handwrite-mvc-example/src/main/java/com/siyang/bean/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handwrite-mvc-example/src/main/java/com/siyang/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/handwrite-mvc-example/src/main/java/com/siyang/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handwrite-mvc-example/src/main/resources/handwrite.properties" beforeDir="false" afterPath="$PROJECT_DIR$/handwrite-mvc-example/src/main/resources/handwrite.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handwrite-mvc-example/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/handwrite-mvc-example/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handwrite-mvc-example/target/handwrite-mvc-example/WEB-INF/lib/handwrite-mvc-framework-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/handwrite-mvc-example/target/handwrite-mvc-example/WEB-INF/lib/handwrite-mvc-framework-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/HelperLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/HelperLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/helper/IocHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/helper/IocHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handwrite-mvc-framework/target/classes/com/mvc/framework/HelperLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/handwrite-mvc-framework/target/classes/com/mvc/framework/HelperLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handwrite-mvc-framework/target/classes/com/mvc/framework/helper/IocHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/handwrite-mvc-framework/target/classes/com/mvc/framework/helper/IocHelper.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/handwritemvcframework/target/" />
     <ignored path="$PROJECT_DIR$/handwritemvcexample/target/" />
@@ -24,10 +36,63 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/DispatcherServlet.java">
+        <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/helper/DatabaseHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
+            <state relative-caret-position="227">
+              <caret line="181" column="58" lean-forward="true" selection-start-line="181" selection-start-column="58" selection-end-line="181" selection-end-column="58" />
+              <folding>
+                <element signature="docComment;class#DatabaseHelper#0" />
+                <element signature="docComment;method#getConnection#0;class#DatabaseHelper#0" />
+                <element signature="docComment;method#beginTransaction#0;class#DatabaseHelper#0" />
+                <element signature="method#beginTransaction#0;class#DatabaseHelper#0" />
+                <element signature="docComment;method#commitTransaction#0;class#DatabaseHelper#0" />
+                <element signature="method#commitTransaction#0;class#DatabaseHelper#0" />
+                <element signature="docComment;method#rollbackTransaction#0;class#DatabaseHelper#0" />
+                <element signature="method#rollbackTransaction#0;class#DatabaseHelper#0" />
+                <element signature="docComment;method#queryEntity#0;class#DatabaseHelper#0" />
+                <element signature="method#queryEntity#0;class#DatabaseHelper#0" />
+                <element signature="docComment;method#queryEntityList#0;class#DatabaseHelper#0" />
+                <element signature="docComment;method#update#0;class#DatabaseHelper#0" />
+                <element signature="method#update#0;class#DatabaseHelper#0" />
+                <element signature="docComment;method#insertEntity#0;class#DatabaseHelper#0" />
+                <element signature="docComment;method#updateEntity#0;class#DatabaseHelper#0" />
+                <element signature="method#updateEntity#0;class#DatabaseHelper#0" />
+                <element signature="docComment;method#deleteEntity#0;class#DatabaseHelper#0" />
+                <element signature="method#deleteEntity#0;class#DatabaseHelper#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/proxy/TransactionProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="25" column="7" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="25" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/helper/AopHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="98" column="53" lean-forward="true" selection-start-line="98" selection-start-column="53" selection-end-line="98" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/proxy/ProxyFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,20 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/handwrite-mvc-example/src/main/java/com/siyang/service/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/handwrite-mvc-example/src/main/java/com/siyang/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="222">
+              <caret line="33" column="50" lean-forward="true" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,61 +110,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/bean/View.java">
+        <entry file="file://$PROJECT_DIR$/handwrite-mvc-example/src/main/resources/log4j.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="114">
+              <caret line="6" column="40" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/bean/Param.java">
+        <entry file="file://$PROJECT_DIR$/handwrite-mvc-example/src/main/resources/handwrite.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#478#479#0" expanded="true" />
-                <element signature="e#527#528#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="152">
+              <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/util/ReflectionUtil.java">
+        <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/ConfigConstant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11">
-              <caret line="52" column="46" lean-forward="true" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="285">
+              <caret line="15" column="63" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="15" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/handwrite-mvc-example/src/main/webapp/WEB-INF/web.xml">
+        <entry file="file://$PROJECT_DIR$/handwrite-mvc-example/src/main/java/com/siyang/bean/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/handwrite-mvc-example/src/main/java/com/siyang/dao/UserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -122,29 +151,26 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="AnnotationType" />
         <option value="applicationContext.xml" />
+        <option value="Jsp File" />
+        <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Jsp File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>11</find>
+      <find>setBean</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/annotation/Controller.java" />
-        <option value="$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/bean/RequestMethod.java" />
-        <option value="$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/annotation/RequestMapping.java" />
-        <option value="$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/annotation/Autowired.java" />
-        <option value="$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/ConfigConstant.java" />
-        <option value="$PROJECT_DIR$/handwrite-mvc-framework/pom.xml" />
-        <option value="$PROJECT_DIR$/handwrite-mvc-example/src/main/resource/log4j.properties" />
         <option value="$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/helper/ConfigHelper.java" />
         <option value="$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/helper/BeanHelper.java" />
         <option value="$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/util/ReflectionUtil.java" />
@@ -155,28 +181,47 @@
         <option value="$PROJECT_DIR$/handwrite-mvc-example/src/main/resource/handwrite.properties" />
         <option value="$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/annotation/Service.java" />
         <option value="$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/helper/ClassHelper.java" />
-        <option value="$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/helper/IocHelper.java" />
         <option value="$PROJECT_DIR$/handwrite-mvc-example/pom.xml" />
         <option value="$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/bean/Handle.java" />
         <option value="$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/bean/Handler.java" />
         <option value="$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/bean/Param.java" />
         <option value="$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/bean/Data.java" />
         <option value="$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/bean/View.java" />
-        <option value="$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/HelperLoader.java" />
         <option value="$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/bean/Request.java" />
         <option value="$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/helper/ControllerHelper.java" />
-        <option value="$PROJECT_DIR$/handwrite-mvc-example/src/main/resources/handwrite.properties" />
         <option value="$PROJECT_DIR$/handwrite-mvc-example/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/handwrite-mvc-example/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/helper/RequestHelper.java" />
-        <option value="$PROJECT_DIR$/handwrite-mvc-example/src/main/java/com/siyang/bean/User.java" />
         <option value="$PROJECT_DIR$/handwrite-mvc-example/src/main/java/com/siyang/service/UserService.java" />
-        <option value="$PROJECT_DIR$/handwrite-mvc-example/src/main/java/com/siyang/service/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/handwrite-mvc-example/src/main/webapp/WEB-INF/view/index.jsp" />
         <option value="$PROJECT_DIR$/handwrite-mvc-example/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/handwrite-mvc-example/src/main/java/com/siyang/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/DispatcherServlet.java" />
         <option value="$PROJECT_DIR$/handwrite-mvc-example/src/main/java/com/siyang/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/handwrite-mvc-example/src/test/java/com/test/Test.java" />
+        <option value="$PROJECT_DIR$/handwrite-mvc-example/src/test/java/com/test/bean/IAccountService.java" />
+        <option value="$PROJECT_DIR$/handwrite-mvc-example/src/test/java/com/test/bean/IAccountServiceImpl.java" />
+        <option value="$PROJECT_DIR$/handwrite-mvc-example/src/test/java/com/test/bean/AccountAdvice.java" />
+        <option value="$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/proxy/Proxy.java" />
+        <option value="$PROJECT_DIR$/handwrite-mvc-example/src/test/java/com/test/bean/AccountAdvice2.java" />
+        <option value="$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/annotation/Transactional.java" />
+        <option value="$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/proxy/ProxyChain.java" />
+        <option value="$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/proxy/AspectProxy.java" />
+        <option value="$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/annotation/Aspect.java" />
+        <option value="$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/proxy/ProxyFactory.java" />
+        <option value="$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/helper/IocHelper.java" />
+        <option value="$PROJECT_DIR$/handwrite-mvc-example/src/test/java/com/test/bean/UserDao.java" />
+        <option value="$PROJECT_DIR$/handwrite-mvc-example/src/test/java/com/test/bean/UserService.java" />
+        <option value="$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/HelperLoader.java" />
+        <option value="$PROJECT_DIR$/handwrite-mvc-example/src/main/java/com/siyang/aspect/UserAspect.java" />
+        <option value="$PROJECT_DIR$/handwrite-mvc-example/src/test/java/com/test/Test01.java" />
+        <option value="$PROJECT_DIR$/handwrite-mvc-example/src/main/java/com/siyang/aspect/User2Aspect.java" />
+        <option value="$PROJECT_DIR$/handwrite-mvc-example/src/main/resources/handwrite.properties" />
+        <option value="$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/helper/DatabaseHelper.java" />
+        <option value="$PROJECT_DIR$/handwrite-mvc-example/src/main/java/com/siyang/bean/User.java" />
+        <option value="$PROJECT_DIR$/handwrite-mvc-example/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/helper/AopHelper.java" />
+        <option value="$PROJECT_DIR$/handwrite-mvc-example/src/main/java/com/siyang/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/proxy/TransactionProxy.java" />
       </list>
     </option>
   </component>
@@ -206,11 +251,13 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="435" />
-    <option name="y" value="60" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="480" />
     <option name="width" value="1330" />
     <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -219,10 +266,120 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="handwrite-mvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="handwrite-mvc-example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="handwrite-mvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="handwrite-mvc-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="handwrite-mvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="handwrite-mvc-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="handwrite-mvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="handwrite-mvc-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="handwrite-mvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="handwrite-mvc-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="siyang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="handwrite-mvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="handwrite-mvc-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="siyang" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="handwrite-mvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="handwrite-mvc-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="siyang" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="handwrite-mvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="handwrite-mvc-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="handwrite-mvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="handwrite-mvc-framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="handwrite-mvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="handwrite-mvc-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="handwrite-mvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="handwrite-mvc-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="handwrite-mvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="handwrite-mvc-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="handwrite-mvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="handwrite-mvc-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="handwrite-mvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="handwrite-mvc-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="handwrite-mvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="handwrite-mvc-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="helper" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.7" />
@@ -235,6 +392,9 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.siyang.aspect" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\IDEA\workspace\handwrite-mvc\handwrite-mvc-example\target\classes" />
       <recent name="E:\IDEA\workspace\handwrite-mvc\handwrite-mvc-example\src\main\java\com\siyang\dao" />
@@ -252,7 +412,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UserDao">
+  <component name="RunManager" selected="Tomcat Server.handwritemvc">
     <configuration name="UserDao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.siyang.dao.UserDao" />
       <module name="handwrite-mvc-example" />
@@ -262,6 +422,70 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test01.demo1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="handwrite-mvc-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.Test01" />
+      <option name="METHOD_NAME" value="demo1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test01.demo2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="handwrite-mvc-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.Test01" />
+      <option name="METHOD_NAME" value="demo2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test01.demo3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="handwrite-mvc-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.Test01" />
+      <option name="METHOD_NAME" value="demo3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test01.demo4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="handwrite-mvc-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.Test01" />
+      <option name="METHOD_NAME" value="demo4" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -339,10 +563,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.UserDao" />
+      <item itemvalue="JUnit.Test01.demo1" />
+      <item itemvalue="JUnit.Test01.demo2" />
+      <item itemvalue="JUnit.Test01.demo3" />
+      <item itemvalue="JUnit.Test01.demo4" />
       <item itemvalue="Tomcat Server.handwritemvc" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test01.demo4" />
+        <item itemvalue="JUnit.Test01.demo3" />
+        <item itemvalue="JUnit.Test01.demo2" />
+        <item itemvalue="JUnit.Test01.demo1" />
         <item itemvalue="Application.UserDao" />
       </list>
     </recent_temporary>
@@ -363,16 +595,52 @@
       <workItem from="1573139478857" duration="244000" />
       <workItem from="1573139806873" duration="538000" />
       <workItem from="1573193351656" duration="1057000" />
-      <workItem from="1573277837472" duration="19670000" />
+      <workItem from="1573277837472" duration="20008000" />
+      <workItem from="1573445853664" duration="2540000" />
+      <workItem from="1573476308827" duration="7166000" />
+      <workItem from="1573553702158" duration="14051000" />
+      <workItem from="1573646825764" duration="9781000" />
+      <workItem from="1573824281318" duration="5093000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Test01_demo4 - 2019.11.13 at 22h 36m 36s.xml">
+      <configuration name="Test01.demo4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test01_demo4 - 2019.11.13 at 22h 37m 32s.xml">
+      <configuration name="Test01.demo4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test01_demo4 - 2019.11.13 at 22h 38m 06s.xml">
+      <configuration name="Test01.demo4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test01_demo4 - 2019.11.13 at 22h 38m 35s.xml">
+      <configuration name="Test01.demo4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test01_demo4 - 2019.11.13 at 22h 44m 17s.xml">
+      <configuration name="Test01.demo4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test01_demo4 - 2019.11.13 at 22h 45m 01s.xml">
+      <configuration name="Test01.demo4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test01_demo4 - 2019.11.13 at 22h 46m 32s.xml">
+      <configuration name="Test01.demo4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test01_demo4 - 2019.11.13 at 22h 47m 03s.xml">
+      <configuration name="Test01.demo4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test01_demo4 - 2019.11.13 at 22h 50m 40s.xml">
+      <configuration name="Test01.demo4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test01_demo4 - 2019.11.13 at 22h 54m 14s.xml">
+      <configuration name="Test01.demo4" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43897000" />
+    <option name="totallyTimeSpent" value="82866000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -380,20 +648,20 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.2707775" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.28954422" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Application Servers" order="0" weight="0.33097595" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.3903819" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.3895184" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="5" />
       <window_info anchor="bottom" id="Version Control" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32956153" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.31966054" />
-      <window_info anchor="bottom" id="Debug" order="11" visible="true" weight="0.37623763" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.30028328" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.40934843" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="14" />
@@ -407,385 +675,11 @@
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Capture Tool" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Web" order="4" side_tool="true" />
-      <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.2707775" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.33097595" />
-      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.3903819" />
-      <window_info anchor="bottom" id="Java Enterprise" order="4" />
-      <window_info anchor="bottom" id="Database Changes" order="5" />
-      <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Message" order="8" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.5473833" />
-      <window_info anchor="bottom" id="Debug" order="11" visible="true" weight="0.43422914" />
-      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="14" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Database" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.32908848" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/handwrite-mvc-example/src/main/java/com/siyang/service.java" />
-    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/annotation/Autowired.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/util/PropsUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-          <folding>
-            <element signature="docComment;class#PropsUtil#0" />
-            <element signature="docComment;method#loadProps#0;class#PropsUtil#0" />
-            <element signature="docComment;method#getString#0;class#PropsUtil#0" />
-            <element signature="docComment;method#getString#1;class#PropsUtil#0" />
-            <element signature="docComment;method#getInt#0;class#PropsUtil#0" />
-            <element signature="docComment;method#getInt#1;class#PropsUtil#0" />
-            <element signature="method#getInt#1;class#PropsUtil#0" />
-            <element signature="docComment;method#getBoolean#0;class#PropsUtil#0" />
-            <element signature="docComment;method#getBoolean#1;class#PropsUtil#0" />
-            <element signature="method#getBoolean#1;class#PropsUtil#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handwrite-mvc-example/src/main/resources/a.xml" />
-    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/annotation/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/xxx/d" />
-    <entry file="file://$PROJECT_DIR$/handwrite-mvc-example/target/classes/handwrite.properties" />
-    <entry file="file://$PROJECT_DIR$/handwrite-mvc-example/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1406">
-          <caret line="74" column="49" selection-start-line="74" selection-start-column="49" selection-end-line="74" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/annotation/RequestMapping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/annotation/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/bean/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="49" lean-forward="true" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-          <folding>
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/bean/RequestMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Maven/Maven-lib/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar!/javax/servlet/ServletRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="21" column="79" lean-forward="true" selection-start-line="21" selection-start-column="79" selection-end-line="21" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/javax.servlet.ServletContext">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>javax.servlet.ServletContext</OriginalElement>
-          <nodes />
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="544.0" y="315.5" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="72" column="19" lean-forward="true" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
-          <folding>
-            <element signature="n#build#0;n#project#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/bean/Request.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Maven/Maven-lib/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar!/org/apache/commons/lang3/StringUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
-          <folding>
-            <element signature="e#1042#1043#0" expanded="true" />
-            <element signature="e#1077#1078#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/ConfigConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="63" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handwrite-mvc-example/target/classes/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/handwrite-mvc-framework.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-37">
-          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handwrite-mvc-example/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/helper/BeanHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="18" />
-          <folding>
-            <element signature="docComment;method#getBeanMap#0;class#BeanHelper#0" />
-            <element signature="docComment;method#getBean#0;class#BeanHelper#0" />
-            <element signature="docComment;method#setBean#0;class#BeanHelper#0" />
-            <element signature="e#1389#1390#0" expanded="true" />
-            <element signature="e#1427#1428#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/helper/IocHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handwrite-mvc-example/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Maven/Maven-lib/org/apache/commons/commons-collections4/4.0/commons-collections4-4.0.jar!/org/apache/commons/collections4/MapUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="509" column="47" selection-start-line="509" selection-start-column="44" selection-end-line="509" selection-end-column="47" />
-          <folding>
-            <element signature="e#16804#16805#0" expanded="true" />
-            <element signature="e#16855#16856#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/helper/ConfigHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="15" column="97" selection-start-line="15" selection-start-column="86" selection-end-line="15" selection-end-column="97" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#604#605#0" expanded="true" />
-            <element signature="e#685#686#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
-            <element signature="e#1018#1019#0" expanded="true" />
-            <element signature="e#1642#1643#0" expanded="true" />
-            <element signature="e#1703#1704#0" expanded="true" />
-            <element signature="e#1789#1790#0" expanded="true" />
-            <element signature="e#1847#1848#0" expanded="true" />
-            <element signature="e#1945#1946#0" expanded="true" />
-            <element signature="e#2007#2008#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/util/ClassUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="788">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/helper/ClassHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="docComment;field#CLASS_SET#0;class#ClassHelper#0" />
-            <element signature="e#817#818#0" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="docComment;method#getServiceClassSet#0;class#ClassHelper#0" />
-            <element signature="method#getServiceClassSet#0;class#ClassHelper#0" />
-            <element signature="e#1025#1154#0" />
-            <element signature="e#1090#1144#1" />
-            <element signature="docComment;method#getControllerClassSet#0;class#ClassHelper#0" />
-            <element signature="docComment;method#getBeanClassSet#0;class#ClassHelper#0" />
-            <element signature="method#getBeanClassSet#0;class#ClassHelper#0" />
-            <element signature="docComment;method#getClassSetBySuper#0;class#ClassHelper#0" />
-            <element signature="method#getClassSetBySuper#0;class#ClassHelper#0" />
-            <element signature="e#2029#2256#0" />
-            <element signature="e#2199#2246#1" />
-            <element signature="docComment;method#getClassSetByAnnotation#0;class#ClassHelper#0" />
-            <element signature="method#getClassSetByAnnotation#0;class#ClassHelper#0" />
-            <element signature="e#2498#2622#0" />
-            <element signature="e#2565#2612#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/helper/ControllerHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1203">
-          <caret line="77" column="35" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handwrite-mvc-example/src/main/java/com/siyang/bean/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-201">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <folding>
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handwrite-mvc-example/src/main/webapp/WEB-INF/view/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="15" column="47" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Maven/Maven-lib/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar!/javax/servlet/ServletRegistration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handwrite-mvc-example/src/main/resources/handwrite.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="47" lean-forward="true" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Maven/Maven-lib/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar!/javax/servlet/ServletContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="97" column="61" selection-start-line="97" selection-start-column="55" selection-end-line="97" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/bean/Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding>
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/HelperLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/helper/RequestHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -793,13 +687,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handwrite-mvc-example/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
@@ -820,27 +707,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/Maven/Maven-lib/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.jar!/org/slf4j/impl/Log4jLoggerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="215" selection-start-line="215" selection-end-line="215" />
-          <folding>
-            <element signature="e#7046#7047#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/Maven/Maven-lib/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar!/javax/servlet/http/HttpServlet.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
           <caret line="253" column="16" selection-start-line="253" selection-start-column="16" selection-end-line="253" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/java/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -854,10 +724,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/handwrite-mvc-example/src/main/java/com/siyang/service/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/bean/View.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        <state relative-caret-position="266">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -866,7 +736,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/bean/Param.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
+        <state relative-caret-position="342">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -877,30 +747,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/bean/View.java">
+    <entry file="file://$PROJECT_DIR$/handwrite-mvc-example/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="437">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Maven/Maven-lib/cglib/cglib/2.2.2/cglib-2.2.2.jar!/net/sf/cglib/proxy/Enhancer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="412" column="30" selection-start-line="412" selection-start-column="22" selection-end-line="412" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handwrite-mvc-example/src/test/java/com/test/bean/IAccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handwrite-mvc-example/src/test/java/com/test/bean/IAccountServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handwrite-mvc-example/src/test/java/com/test/bean/AccountAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handwrite-mvc-example/src/test/java/com/test/bean/AccountAdvice2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/handwrite-mvc-example/src/main/java/com/siyang/dao/UserDao.java">
+    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/util/ClassUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="418">
+          <caret line="79" column="46" lean-forward="true" selection-start-line="79" selection-start-column="46" selection-end-line="79" selection-end-column="46" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#ClassUtil#0" />
+            <element signature="docComment;method#getClassLoader#0;class#ClassUtil#0" />
+            <element signature="method#getClassLoader#0;class#ClassUtil#0" />
+            <element signature="e#669#716#0" />
+            <element signature="docComment;method#loadClass#0;class#ClassUtil#0" />
+            <element signature="method#loadClass#0;class#ClassUtil#0" />
+            <element signature="e#1320#1411#0" />
+            <element signature="e#1445#1506#0" />
+            <element signature="docComment;method#loadClass#1;class#ClassUtil#0" />
+            <element signature="e#1629#1630#0" expanded="true" />
+            <element signature="e#1677#1678#0" expanded="true" />
+            <element signature="docComment;method#getClassSet#0;class#ClassUtil#0" />
+            <element signature="docComment;method#addClass#0;class#ClassUtil#0" />
+            <element signature="docComment;method#doAddClass#0;class#ClassUtil#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/util/ReflectionUtil.java">
+    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/helper/ClassHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11">
-          <caret line="52" column="46" lean-forward="true" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
+        <state relative-caret-position="-123">
+          <caret line="28" column="57" lean-forward="true" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+          <folding>
+            <element signature="docComment;field#CLASS_SET#0;class#ClassHelper#0" />
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+            <element signature="docComment;method#getServiceClassSet#0;class#ClassHelper#0" />
+            <element signature="method#getServiceClassSet#0;class#ClassHelper#0" />
+            <element signature="e#1025#1154#0" />
+            <element signature="e#1090#1144#1" />
+            <element signature="docComment;method#getControllerClassSet#0;class#ClassHelper#0" />
+            <element signature="docComment;method#getBeanClassSet#0;class#ClassHelper#0" />
+            <element signature="method#getBeanClassSet#0;class#ClassHelper#0" />
+            <element signature="docComment;method#getClassSetBySuper#0;class#ClassHelper#0" />
+            <element signature="e#2199#2246#1" />
+            <element signature="docComment;method#getClassSetByAnnotation#0;class#ClassHelper#0" />
+            <element signature="method#getClassSetByAnnotation#0;class#ClassHelper#0" />
+            <element signature="e#2498#2622#0" />
+            <element signature="e#2565#2612#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/helper/ConfigHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="85" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#1018#1019#0" expanded="true" />
+            <element signature="e#1642#1643#0" expanded="true" />
+            <element signature="e#1703#1704#0" expanded="true" />
+            <element signature="e#1789#1790#0" expanded="true" />
+            <element signature="e#1847#1848#0" expanded="true" />
+            <element signature="e#1945#1946#0" expanded="true" />
+            <element signature="e#2007#2008#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/helper/ControllerHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="77" column="35" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -909,15 +885,323 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/DispatcherServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
+        <state relative-caret-position="323">
+          <caret line="82" column="42" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/proxy/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/annotation/Aspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handwrite-mvc-example/src/main/java/com/siyang/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/annotation/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/util/ReflectionUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="63" column="23" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Maven/Maven-lib/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.jar!/org/slf4j/impl/Log4jLoggerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="214" selection-start-line="214" selection-end-line="214" />
+          <folding>
+            <element signature="e#7104#7105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Maven/Maven-lib/cglib/cglib/2.2.2/cglib-2.2.2.jar!/net/sf/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/java/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="239" column="6" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handwrite-mvc-example/src/test/java/com/test/bean/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handwrite-mvc-example/src/test/java/com/test/bean/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/helper/BeanHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="docComment;method#getBeanMap#0;class#BeanHelper#0" />
+            <element signature="docComment;method#getBean#0;class#BeanHelper#0" />
+            <element signature="docComment;method#setBean#0;class#BeanHelper#0" />
+            <element signature="e#1427#1428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/helper/IocHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="61" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/HelperLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handwrite-mvc-example/src/main/java/com/siyang/aspect/UserAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/handwrite-mvc-example/src/main/java/com/siyang/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="271">
+          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Maven/Maven-lib/org/apache/commons/commons-dbcp2/2.0.1/commons-dbcp2-2.0.1.jar!/org/apache/commons/dbcp2/BasicDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/java/src.zip!/java/lang/ThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="221" column="28" lean-forward="true" selection-start-line="221" selection-start-column="28" selection-end-line="221" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/java/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="1306" column="42" lean-forward="true" selection-start-line="1306" selection-start-column="42" selection-end-line="1306" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handwrite-mvc-example/src/test/java/com/test/Test01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="65" column="32" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/proxy/AspectProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="44" column="45" lean-forward="true" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
+          <folding>
+            <element signature="docComment;class#AspectProxy#0" />
+            <element signature="docComment;method#begin#0;class#AspectProxy#0" />
+            <element signature="method#begin#0;class#AspectProxy#0" />
+            <element signature="docComment;method#intercept#0;class#AspectProxy#0" />
+            <element signature="method#intercept#0;class#AspectProxy#0" />
+            <element signature="docComment;method#before#0;class#AspectProxy#0" />
+            <element signature="method#before#0;class#AspectProxy#0" />
+            <element signature="docComment;method#after#0;class#AspectProxy#0" />
+            <element signature="method#after#0;class#AspectProxy#0" />
+            <element signature="docComment;method#error#0;class#AspectProxy#0" />
+            <element signature="method#error#0;class#AspectProxy#0" />
+            <element signature="docComment;method#end#0;class#AspectProxy#0" />
+            <element signature="method#end#0;class#AspectProxy#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handwrite-mvc-example/src/main/java/com/siyang/aspect/User2Aspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/proxy/ProxyChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="52" column="14" lean-forward="true" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1110#1111#0" expanded="true" />
+            <element signature="e#1145#1146#0" expanded="true" />
+            <element signature="e#1185#1186#0" expanded="true" />
+            <element signature="e#1219#1220#0" expanded="true" />
+            <element signature="e#1258#1259#0" expanded="true" />
+            <element signature="e#1293#1294#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/ConfigConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="63" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="15" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Maven/Maven-lib/commons-dbutils/commons-dbutils/1.6/commons-dbutils-1.6.jar!/org/apache/commons/dbutils/QueryRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="92" column="17" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handwrite-mvc-example/src/main/java/com/siyang/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/proxy/ProxyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handwrite-mvc-example/src/main/resources/handwrite.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handwrite-mvc-example/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/annotation/Transactional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/helper/DatabaseHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="181" column="58" lean-forward="true" selection-start-line="181" selection-start-column="58" selection-end-line="181" selection-end-column="58" />
+          <folding>
+            <element signature="docComment;class#DatabaseHelper#0" />
+            <element signature="docComment;method#getConnection#0;class#DatabaseHelper#0" />
+            <element signature="docComment;method#beginTransaction#0;class#DatabaseHelper#0" />
+            <element signature="method#beginTransaction#0;class#DatabaseHelper#0" />
+            <element signature="docComment;method#commitTransaction#0;class#DatabaseHelper#0" />
+            <element signature="method#commitTransaction#0;class#DatabaseHelper#0" />
+            <element signature="docComment;method#rollbackTransaction#0;class#DatabaseHelper#0" />
+            <element signature="method#rollbackTransaction#0;class#DatabaseHelper#0" />
+            <element signature="docComment;method#queryEntity#0;class#DatabaseHelper#0" />
+            <element signature="method#queryEntity#0;class#DatabaseHelper#0" />
+            <element signature="docComment;method#queryEntityList#0;class#DatabaseHelper#0" />
+            <element signature="docComment;method#update#0;class#DatabaseHelper#0" />
+            <element signature="method#update#0;class#DatabaseHelper#0" />
+            <element signature="docComment;method#insertEntity#0;class#DatabaseHelper#0" />
+            <element signature="docComment;method#updateEntity#0;class#DatabaseHelper#0" />
+            <element signature="method#updateEntity#0;class#DatabaseHelper#0" />
+            <element signature="docComment;method#deleteEntity#0;class#DatabaseHelper#0" />
+            <element signature="method#deleteEntity#0;class#DatabaseHelper#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/helper/AopHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="98" column="53" lean-forward="true" selection-start-line="98" selection-start-column="53" selection-end-line="98" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handwrite-mvc-example/src/main/java/com/siyang/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="33" column="50" lean-forward="true" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handwrite-mvc-framework/src/main/java/com/mvc/framework/proxy/TransactionProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="25" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

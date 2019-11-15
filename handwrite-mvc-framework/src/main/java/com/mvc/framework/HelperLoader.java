@@ -1,9 +1,6 @@
 package com.mvc.framework;
 
-import com.mvc.framework.helper.BeanHelper;
-import com.mvc.framework.helper.ClassHelper;
-import com.mvc.framework.helper.ConfigHelper;
-import com.mvc.framework.helper.IocHelper;
+import com.mvc.framework.helper.*;
 import com.mvc.framework.util.ClassUtil;
 
 /**
@@ -18,10 +15,11 @@ public class HelperLoader {
 
     public static void init(){
         Class<?>[] classList={
-            ConfigHelper.class,
-                ClassHelper.class,
-                    BeanHelper.class,
-                        IocHelper.class
+        ClassHelper.class,
+        BeanHelper.class,
+       AopHelper.class,
+        IocHelper.class,
+        ControllerHelper.class
         };
         for (Class<?> aClass : classList) {
             ClassUtil.loadClass(aClass.getName());
